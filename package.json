@@ -3,7 +3,8 @@
   "displayName": "DevLuan Dark",
   "description": "devluan jupiter dark",
   "publisher": "devluan",
-  "version": "0.0.1",
+  "icon": "logo-ls.png",
+  "version": "0.0.2",
   "keywords": [
     "theme",
     "devluan",
