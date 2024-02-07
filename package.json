@@ -1,0 +1,21 @@
+{
+  "name": "devLuan jupter",
+  "displayName": "",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jupiter DevLuan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Jupiter DevLuan-color-theme.json"
+      }
+    ]
+  }
+}
