@@ -1,10 +1,10 @@
 {
   "name": "devluan-jupiter",
-  "displayName": "DevLuan Jupiter Dark",
   "description": "devluan jupiter dark",
+  "displayName": "Jupiter Dark",
   "publisher": "devluan",
-  "icon": "logo-ls.png",
   "version": "0.0.1",
+  "icon": "logo-ls.png",
   "keywords": [
     "theme",
     "devluan",
@@ -26,7 +26,6 @@
       }
     ]
   },
-  "scripts": {},
   "license": "MIT",
   "devDependencies": {
     "vsce": "^2.15.0"
