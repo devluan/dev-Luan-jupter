@@ -1,9 +1,15 @@
 {
   "name": "devluan-jupiter",
-  "displayName": "",
-  "description": "",
+  "displayName": "DevLuan Dark",
+  "description": "devluan jupiter dark",
   "publisher": "devluan",
   "version": "0.0.1",
+  "keywords": [
+    "theme",
+    "devluan",
+    "dark",
+    "jupiter"
+  ],
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -13,10 +19,18 @@
   "contributes": {
     "themes": [
       {
-        "label": "Jupiter DevLuan",
+        "label": "jupiter devluan",
         "uiTheme": "vs-dark",
-        "path": "./themes/Jupiter DevLuan-color-theme.json"
+        "path": "./themes/jupiter-devluan-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
   }
 }
